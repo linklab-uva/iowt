@@ -6,6 +6,7 @@
 *.jpg
 *.pyc
 .fuse*
+.ipynb_checkpoints
 
 # OS Generated #
 .DS_Store*
