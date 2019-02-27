@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+from sklearn.metrics import precision_score, recall_score, f1_score
 
 
 def load_data():
@@ -53,7 +54,15 @@ def load_data():
 
 
 
+
+
 data,data_categories = load_data()
+
+np.delete(data, data[:,:,0,[1,2,4],:,:]) #delete irrelevant data
+np.delete(data, data[:,:,1,[0,3],:,:]) #delete irrelevant data
+np.delete(data, data[:,:,2,:,:,:], axis = 2) #remove person confidence data
+
+
 
 title ="average mean object probability"
 print(title)
@@ -78,7 +87,7 @@ plt.ylabel = 'probability'
 plt.scatter(data_categories[category_num], avg_prob)
 plt.show()
 
-title = "average mean probability vs distance"
+title = "average mean distance vs probability"
 print(title)
 category_num = 1 #distance
 avg_prob = data[0] # 0 - mean, 1 - max
@@ -90,7 +99,7 @@ plt.ylabel = 'probability'
 plt.scatter(data_categories[category_num], avg_prob)
 plt.show()
 
-title="average max probability vs distance"
+title="average max distance vs probability"
 print(title)
 category_num = 1 #distance
 avg_prob = data[1] # 0 - mean, 1 - max
@@ -125,5 +134,9 @@ plt.xlabel = 'camera'
 plt.ylabel = 'probability'
 plt.scatter(data_categories[category_num], avg_prob)
 plt.show()
-pass
+
+
+
+
+
 
