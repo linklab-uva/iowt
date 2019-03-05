@@ -6,7 +6,9 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 
 
 def load_data():
-    root_dir = os.path.join(os.getcwd(), '../videos')
+    #root_dir = os.path.join(os.getcwd(), '../videos')
+
+    root_dir = '/home/brandon/Projects/darknet/waste_data/combine videos/brandon + owen videos1/'
     file_name = os.path.join(root_dir, 'all_data.csv')
     data = []
     with open(file_name, 'r') as f:

@@ -2,7 +2,9 @@ import os
 
 
 def main():
-    root_dir = '/home/brandon/Codes/iowt/videos/'
+    #root_dir = '/home/brandon/Codes/iowt/videos/'
+
+    root_dir = '/home/brandon/Projects/darknet/waste_data/combine videos/brandon + owen videos1'
     distances = [3,5,10,15]
     objs = ['Coke_Can', 'Gatorade_bottle', 'water_bottle','Sprite_Can', 'MountainDew_bottle']
     write_file = os.path.join(root_dir, 'all_data.csv')
