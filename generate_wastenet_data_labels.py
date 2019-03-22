@@ -8,6 +8,7 @@ def generate_waste_labels():
         class_dir = os.path.join(root_dir,class_name)
         image_names = os.listdir(class_dir)
         for image_name in image_names:
+            if '.txt' in image_names:continue
             image_file = os.path.join(class_dir, image_name)
             with open(image_file[:-4]+'.txt', 'w+') as f:
                 write_str = str(i) +' 0.5 0.5 1.0 1.0 '
