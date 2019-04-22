@@ -1,4 +1,7 @@
+import serial
 import sys
+import time
+
 try:
     sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 except:
@@ -150,16 +153,54 @@ def detect(net, meta, image, thresh=.5, hier_thresh=.5, nms=.45):
     free_detections(dets, num)
     return res
 
+
+def get_message_for_arduino_and_output(r, frames):
+    while len(frames) > 20:
+        frames.pop()
+         
+    #TODO change back
+    trash_objs =['apple', 'banana']
+    recycle_objs = ['cup','bottle']
+    objs = trash_objs + recycle_objs
+    
+    output = []
+    #note a[0] -  recycle, a[1] - trash
+    a = [0,0]
+    
+    for idx, obj in enumerate(r):
+        if obj[0].decode() in recycle_objs:
+            a[0] = 1
+        if obj[0].decode() in trash_objs:
+            a[1] = 1
+        if obj[0].decode() in objs:
+            output.append(obj)
+    frames.insert(0, a)
+    recycle_avg = sum([f[0] for f in frames]) / len(frames)
+    trash_avg = sum([f[1] for f in frames]) / len(frames)
+    res = 0
+    if 1 in [f[0] for f in frames]:
+        res += 1 
+    if 1 in [f[1] for f in frames]:
+        res += 2
+    print(recycle_avg, trash_avg)
+    return res, output
+
+
 if __name__ == '__main__':
     cap = cv2.VideoCapture(0)
+    
+    time.sleep(2)
+    arduino_port = '/dev/ttyACM0'
+    ard = serial.Serial(arduino_port,9600)
+    frames = []
 
     # Define the codec and create VideoWriter object
     net = load_net(b"cfg/yolov3.cfg", b"yolov3.weights", 0)
     meta = load_meta(b"cfg/coco.data")
     temp_fileb = b'/home/brandon/Projects/darknet/waste_data/img.jpg'
     temp_file = '/home/brandon/Projects/darknet/waste_data/img.jpg'
-    objs= ['cup', 'bottle', 'person','tvmonitor']
-    #temp_file = os.path.join(path, 'img.jpg')
+    
+    count = 0
     while(cap.isOpened()):
         ret, frame = cap.read()
         if ret==True:
@@ -169,9 +210,22 @@ if __name__ == '__main__':
 
             cv2.imwrite(temp_file, frame)
             r = detect(net, meta, temp_fileb)
-            objs_found = [obj[0] for obj in r]
-            #print(objs_found)
-            print(r)
+            # color = get_info(r)        
+            
+             
+            message, output = get_message_for_arduino_and_output(r, frames)
+            try:
+                for box in [b[2] for b in output]:
+                    box  = [int(cord)  for cord in box]
+                    cv2.rectangle(frame, (box[0], box[1]), (box[0]+box[2], box[1]+box[3]),(0,255,0),2)
+            except Exception as e:
+                print(e)
+
+            #print(output) 
+
+            send = str(message).encode()
+            print(send)
+            ard.write(send)
             cv2.imshow('frame',frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
@@ -181,3 +235,4 @@ if __name__ == '__main__':
     # Release everything if job is finished
     cap.release()
     cv2.destroyAllWindows()
+

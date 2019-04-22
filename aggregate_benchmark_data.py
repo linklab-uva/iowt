@@ -4,9 +4,9 @@ import os
 def main():
     #root_dir = '/home/brandon/Codes/iowt/videos/'
 
-    root_dir = '/home/brandon/Projects/darknet/waste_data/combine videos/brandon + owen videos1'
+    root_dir = '/home/brandon/Projects/darknet/waste_data/combine videos/brandon + owen videos2'
     distances = [3,5,10,15]
-    objs = ['Coke_Can', 'Gatorade_bottle', 'water_bottle','Sprite_Can', 'MountainDew_bottle']
+    objs = ['Coke_Can', 'gatorade_bottle', 'water_bottle','Sprite_Can', 'MountainDew_bottle']
     write_file = os.path.join(root_dir, 'all_data.csv')
     num_cams = 3
     write_arr = [["" for _ in range(2)] for j in range(len(distances))]

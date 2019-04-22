@@ -176,7 +176,7 @@ if __name__ == "__main__":
                                 break
                         if not hit:
                             data[i] = 0
-                          
+                    print "i" 
                     print data
                     txt.write(str(data)[1:][:-1] + '\n')
 
