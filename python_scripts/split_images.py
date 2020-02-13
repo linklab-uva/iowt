@@ -24,8 +24,8 @@ num_test_images = len(images) - num_images
 
 # write training images and testing images to train.txt and val.txt
 for i in range(num_images):
-	f.write('images/' + images[i] + '\n')
+	f.write('data/images/' + images[i] + '\n')
 
 reversed(images)
 for i in range(num_test_images):
-	f_val.write('images/' + images[i] + '\n')
+	f_val.write('data/images/' + images[i] + '\n')
