@@ -8,9 +8,9 @@ Rename YOLO annotation txt files to match images names and offset count by 1
 """ 
 
 # directory with text files
-video = 'Annotation1'
-directory = '../../final_annotations/' + video + '/3_' + video
-prefix = 'c_'
+video = 'BinCam2'
+directory = '../../final_annotations/' + video + '/7_' + video
+prefix = 'a_'
 
 for filename in os.listdir(directory):
 	new_name = re.sub('frame_0{2,3}', '', filename)
