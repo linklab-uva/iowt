@@ -1,0 +1,3 @@
+Command to break videos into frames: 
+	ffmpeg -i IMG_5821.MOV mixed0_%03d.png
+
