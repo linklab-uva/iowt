@@ -7,6 +7,7 @@
 *.pyc
 .fuse*
 .ipynb_checkpoints
+scrap/final_annotations
 
 # OS Generated #
 .DS_Store*
