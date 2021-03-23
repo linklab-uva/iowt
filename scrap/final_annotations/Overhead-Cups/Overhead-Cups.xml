@@ -1,0 +1,922 @@
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>8</id>
+      <name>Overhead-Cups</name>
+      <size>1197</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker/>
+      <created>2019-11-22 15:25:00.029273+00:00</created>
+      <updated>2019-12-15 00:38:04.638916+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>1196</stop_frame>
+      <frame_filter/>
+      <z_order>False</z_order>
+      <labels>
+        <label>
+          <name>cup</name>
+          <attributes>
+            <attribute>
+              <name>contaminated</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>cups</name>
+          <attributes>
+            <attribute>
+              <name>contaminated</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>6</id>
+          <start>0</start>
+          <stop>1196</stop>
+          <url>http://localhost:8080/?id=6</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>adazhu</username>
+        <email>gz6xw@virginia.edu</email>
+      </owner>
+      <assignee/>
+      <original_size>
+        <width>3840</width>
+        <height>2160</height>
+      </original_size>
+    </task>
+    <dumped>2020-01-31 16:12:35.565449+00:00</dumped>
+    <source>GOPR0504.MP4</source>
+  </meta>
+  <track id="0" label="cup">
+    <box frame="647" outside="0" occluded="0" keyframe="1" xtl="1699.57" ytl="405.33" xbr="1752.20" ybr="465.85">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="648" outside="0" occluded="0" keyframe="0" xtl="1698.86" ytl="412.92" xbr="1750.39" ybr="472.85">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="649" outside="0" occluded="0" keyframe="0" xtl="1698.15" ytl="420.52" xbr="1748.57" ybr="479.84">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="650" outside="0" occluded="0" keyframe="0" xtl="1697.44" ytl="428.11" xbr="1746.76" ybr="486.83">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="651" outside="0" occluded="0" keyframe="0" xtl="1696.73" ytl="435.71" xbr="1744.94" ybr="493.82">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="652" outside="0" occluded="0" keyframe="0" xtl="1696.02" ytl="443.31" xbr="1743.13" ybr="500.82">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="653" outside="0" occluded="0" keyframe="0" xtl="1695.31" ytl="450.90" xbr="1741.31" ybr="507.81">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="654" outside="0" occluded="0" keyframe="1" xtl="1694.60" ytl="458.50" xbr="1739.50" ybr="514.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="655" outside="0" occluded="0" keyframe="0" xtl="1692.50" ytl="472.60" xbr="1738.70" ybr="527.81">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="656" outside="0" occluded="0" keyframe="1" xtl="1690.40" ytl="486.70" xbr="1737.90" ybr="540.81">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="657" outside="0" occluded="0" keyframe="0" xtl="1682.46" ytl="501.46" xbr="1731.67" ybr="557.71">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="658" outside="0" occluded="0" keyframe="0" xtl="1674.51" ytl="516.21" xbr="1725.43" ybr="574.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="659" outside="0" occluded="0" keyframe="1" xtl="1666.57" ytl="530.97" xbr="1719.20" ybr="591.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="660" outside="0" occluded="0" keyframe="0" xtl="1652.13" ytl="542.18" xbr="1706.12" ybr="602.71">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="661" outside="0" occluded="0" keyframe="0" xtl="1637.69" ytl="553.40" xbr="1693.04" ybr="613.92">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="662" outside="0" occluded="0" keyframe="0" xtl="1623.25" ytl="564.61" xbr="1679.96" ybr="625.13">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="663" outside="0" occluded="0" keyframe="0" xtl="1608.82" ytl="575.83" xbr="1666.88" ybr="636.34">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="664" outside="0" occluded="0" keyframe="0" xtl="1594.38" ytl="587.04" xbr="1653.80" ybr="647.55">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="665" outside="0" occluded="0" keyframe="1" xtl="1579.94" ytl="598.25" xbr="1640.72" ybr="658.77">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="666" outside="0" occluded="0" keyframe="1" xtl="1573.30" ytl="581.70" xbr="1616.10" ybr="644.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="667" outside="0" occluded="0" keyframe="1" xtl="1571.77" ytl="599.20" xbr="1616.40" ybr="647.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="668" outside="0" occluded="0" keyframe="0" xtl="1566.42" ytl="596.50" xbr="1614.08" ybr="654.08">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="669" outside="0" occluded="0" keyframe="1" xtl="1561.07" ytl="593.80" xbr="1611.76" ybr="660.85">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="670" outside="0" occluded="0" keyframe="1" xtl="1551.27" ytl="592.05" xbr="1605.00" ybr="668.58">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="671" outside="0" occluded="0" keyframe="0" xtl="1548.04" ytl="599.83" xbr="1598.45" ybr="681.39">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="672" outside="0" occluded="0" keyframe="1" xtl="1544.80" ytl="607.60" xbr="1591.89" ybr="694.19">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="673" outside="0" occluded="0" keyframe="1" xtl="1534.58" ytl="621.08" xbr="1597.41" ybr="700.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="674" outside="0" occluded="0" keyframe="1" xtl="1534.63" ytl="628.59" xbr="1597.46" ybr="712.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="675" outside="0" occluded="0" keyframe="1" xtl="1541.76" ytl="637.90" xbr="1604.59" ybr="716.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="676" outside="0" occluded="0" keyframe="1" xtl="1545.08" ytl="650.38" xbr="1594.20" ybr="725.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="677" outside="0" occluded="0" keyframe="1" xtl="1548.41" ytl="662.87" xbr="1601.08" ybr="747.05">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="678" outside="0" occluded="0" keyframe="0" xtl="1555.22" ytl="666.93" xbr="1605.97" ybr="758.16">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="679" outside="0" occluded="0" keyframe="1" xtl="1562.03" ytl="671.00" xbr="1610.86" ybr="769.27">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="680" outside="0" occluded="0" keyframe="0" xtl="1566.12" ytl="681.00" xbr="1621.70" ybr="777.24">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="681" outside="0" occluded="0" keyframe="1" xtl="1570.20" ytl="691.00" xbr="1632.54" ybr="785.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="682" outside="0" occluded="0" keyframe="0" xtl="1580.92" ytl="701.00" xbr="1643.37" ybr="789.65">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="683" outside="0" occluded="0" keyframe="1" xtl="1591.63" ytl="710.99" xbr="1654.21" ybr="794.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="684" outside="0" occluded="0" keyframe="0" xtl="1602.35" ytl="720.99" xbr="1665.05" ybr="815.03">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="685" outside="0" occluded="0" keyframe="1" xtl="1613.06" ytl="730.99" xbr="1675.89" ybr="835.95">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="686" outside="0" occluded="0" keyframe="1" xtl="1612.60" ytl="754.60" xbr="1677.50" ybr="827.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="687" outside="0" occluded="0" keyframe="1" xtl="1604.70" ytl="757.60" xbr="1683.61" ybr="847.82">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="688" outside="0" occluded="0" keyframe="0" xtl="1611.45" ytl="768.76" xbr="1689.85" ybr="858.76">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="689" outside="0" occluded="0" keyframe="1" xtl="1618.21" ytl="779.93" xbr="1696.09" ybr="869.69">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="690" outside="0" occluded="0" keyframe="0" xtl="1616.20" ytl="794.06" xbr="1693.57" ybr="883.58">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="691" outside="0" occluded="0" keyframe="0" xtl="1614.19" ytl="808.18" xbr="1691.05" ybr="897.48">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="692" outside="0" occluded="0" keyframe="1" xtl="1612.18" ytl="822.31" xbr="1688.53" ybr="911.37">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="693" outside="0" occluded="0" keyframe="0" xtl="1607.48" ytl="829.32" xbr="1683.31" ybr="920.23">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="694" outside="0" occluded="0" keyframe="0" xtl="1602.78" ytl="836.33" xbr="1678.10" ybr="929.09">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="695" outside="0" occluded="0" keyframe="0" xtl="1598.07" ytl="843.34" xbr="1672.88" ybr="937.94">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="696" outside="0" occluded="0" keyframe="1" xtl="1593.37" ytl="850.35" xbr="1667.67" ybr="946.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="697" outside="0" occluded="0" keyframe="0" xtl="1588.67" ytl="857.35" xbr="1662.45" ybr="954.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="698" outside="0" occluded="0" keyframe="0" xtl="1583.97" ytl="864.36" xbr="1657.24" ybr="962.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="699" outside="0" occluded="0" keyframe="0" xtl="1579.27" ytl="871.37" xbr="1652.02" ybr="970.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="700" outside="0" occluded="0" keyframe="0" xtl="1574.57" ytl="878.38" xbr="1646.81" ybr="978.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="701" outside="0" occluded="0" keyframe="0" xtl="1569.87" ytl="885.39" xbr="1641.60" ybr="985.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="702" outside="0" occluded="0" keyframe="1" xtl="1565.16" ytl="892.40" xbr="1636.38" ybr="993.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="703" outside="0" occluded="0" keyframe="1" xtl="1540.66" ytl="907.30" xbr="1620.50" ybr="1015.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="704" outside="0" occluded="0" keyframe="0" xtl="1540.24" ytl="928.56" xbr="1619.40" ybr="1028.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="705" outside="0" occluded="0" keyframe="0" xtl="1539.82" ytl="949.81" xbr="1618.30" ybr="1041.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="706" outside="0" occluded="0" keyframe="1" xtl="1539.39" ytl="971.07" xbr="1617.20" ybr="1055.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="707" outside="0" occluded="0" keyframe="0" xtl="1542.42" ytl="980.78" xbr="1618.45" ybr="1076.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="708" outside="0" occluded="0" keyframe="0" xtl="1545.45" ytl="990.49" xbr="1619.71" ybr="1098.58">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="709" outside="0" occluded="0" keyframe="0" xtl="1548.48" ytl="1000.19" xbr="1620.96" ybr="1120.37">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="710" outside="0" occluded="0" keyframe="1" xtl="1551.51" ytl="1009.90" xbr="1622.21" ybr="1142.16">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="711" outside="0" occluded="0" keyframe="1" xtl="1554.54" ytl="1038.70" xbr="1625.24" ybr="1163.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="712" outside="0" occluded="0" keyframe="0" xtl="1557.56" ytl="1063.40" xbr="1628.27" ybr="1191.19">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="713" outside="0" occluded="0" keyframe="1" xtl="1560.59" ytl="1088.10" xbr="1631.30" ybr="1219.08">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="714" outside="0" occluded="0" keyframe="1" xtl="1563.62" ytl="1112.20" xbr="1634.32" ybr="1246.97">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="715" outside="0" occluded="0" keyframe="0" xtl="1562.46" ytl="1131.90" xbr="1650.11" ybr="1271.83">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="716" outside="0" occluded="0" keyframe="1" xtl="1561.30" ytl="1151.60" xbr="1665.90" ybr="1296.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="717" outside="0" occluded="0" keyframe="0" xtl="1569.30" ytl="1182.64" xbr="1681.68" ybr="1329.74">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="718" outside="0" occluded="0" keyframe="0" xtl="1577.30" ytl="1213.68" xbr="1697.47" ybr="1362.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="719" outside="0" occluded="0" keyframe="0" xtl="1585.30" ytl="1244.72" xbr="1713.26" ybr="1395.83">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="720" outside="0" occluded="0" keyframe="0" xtl="1593.30" ytl="1275.76" xbr="1729.04" ybr="1428.87">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="721" outside="0" occluded="0" keyframe="0" xtl="1601.30" ytl="1306.80" xbr="1744.83" ybr="1461.91">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="722" outside="0" occluded="0" keyframe="0" xtl="1609.31" ytl="1337.84" xbr="1760.61" ybr="1494.96">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="723" outside="0" occluded="0" keyframe="1" xtl="1617.31" ytl="1368.88" xbr="1776.40" ybr="1528.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="724" outside="0" occluded="0" keyframe="0" xtl="1627.04" ytl="1404.14" xbr="1771.10" ybr="1557.13">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="725" outside="0" occluded="0" keyframe="0" xtl="1636.77" ytl="1439.41" xbr="1765.80" ybr="1586.27">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="726" outside="0" occluded="0" keyframe="1" xtl="1646.50" ytl="1474.67" xbr="1760.50" ybr="1615.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="727" outside="0" occluded="0" keyframe="0" xtl="1643.26" ytl="1509.93" xbr="1769.29" ybr="1656.92">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="728" outside="0" occluded="0" keyframe="0" xtl="1640.01" ytl="1545.20" xbr="1778.08" ybr="1698.44">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="729" outside="0" occluded="0" keyframe="0" xtl="1636.77" ytl="1580.46" xbr="1786.87" ybr="1739.97">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="730" outside="0" occluded="0" keyframe="0" xtl="1633.53" ytl="1615.73" xbr="1795.66" ybr="1781.49">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="731" outside="0" occluded="0" keyframe="0" xtl="1630.28" ytl="1650.99" xbr="1804.44" ybr="1823.01">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="732" outside="0" occluded="0" keyframe="0" xtl="1627.04" ytl="1686.25" xbr="1813.23" ybr="1864.53">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="733" outside="0" occluded="0" keyframe="0" xtl="1623.79" ytl="1721.52" xbr="1822.02" ybr="1906.06">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="734" outside="0" occluded="0" keyframe="0" xtl="1620.55" ytl="1756.78" xbr="1830.81" ybr="1947.58">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="735" outside="0" occluded="0" keyframe="1" xtl="1617.31" ytl="1792.05" xbr="1839.60" ybr="1989.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="736" outside="0" occluded="0" keyframe="1" xtl="1625.20" ytl="1849.94" xbr="1847.49" ybr="2046.99">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="737" outside="0" occluded="0" keyframe="0" xtl="1634.35" ytl="1892.07" xbr="1853.90" ybr="2102.75">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="738" outside="0" occluded="0" keyframe="1" xtl="1643.50" ytl="1934.20" xbr="1860.30" ybr="2158.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="739" outside="0" occluded="0" keyframe="1" xtl="1643.50" ytl="2027.40" xbr="1862.10" ybr="2154.82">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="740" outside="1" occluded="0" keyframe="1" xtl="1625.20" ytl="1934.20" xbr="1847.49" ybr="2112.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="741" outside="1" occluded="0" keyframe="1" xtl="1625.20" ytl="1934.20" xbr="1847.49" ybr="2112.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="745" outside="1" occluded="0" keyframe="1" xtl="1617.31" ytl="1792.05" xbr="1839.60" ybr="1989.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+  </track>
+  <track id="1" label="cup">
+    <box frame="842" outside="0" occluded="0" keyframe="1" xtl="1906.33" ytl="513.80" xbr="1950.40" ybr="560.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="843" outside="0" occluded="0" keyframe="0" xtl="1902.90" ytl="516.84" xbr="1947.86" ybr="563.45">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="844" outside="0" occluded="0" keyframe="1" xtl="1899.47" ytl="519.88" xbr="1945.32" ybr="566.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="845" outside="0" occluded="0" keyframe="0" xtl="1894.57" ytl="523.42" xbr="1941.31" ybr="571.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="846" outside="0" occluded="0" keyframe="1" xtl="1889.67" ytl="526.95" xbr="1937.29" ybr="576.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="847" outside="0" occluded="0" keyframe="1" xtl="1884.03" ytl="535.90" xbr="1932.54" ybr="580.02">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="848" outside="0" occluded="0" keyframe="1" xtl="1879.67" ytl="542.60" xbr="1929.06" ybr="586.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="849" outside="0" occluded="0" keyframe="1" xtl="1874.60" ytl="550.70" xbr="1924.26" ybr="593.46">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="850" outside="0" occluded="0" keyframe="1" xtl="1873.60" ytl="557.30" xbr="1922.20" ybr="600.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="851" outside="0" occluded="0" keyframe="1" xtl="1873.65" ytl="562.90" xbr="1924.40" ybr="605.88">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="852" outside="0" occluded="0" keyframe="1" xtl="1873.70" ytl="568.15" xbr="1924.80" ybr="610.85">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="853" outside="0" occluded="0" keyframe="1" xtl="1873.75" ytl="573.40" xbr="1927.50" ybr="615.83">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="854" outside="0" occluded="0" keyframe="1" xtl="1873.80" ytl="574.94" xbr="1931.90" ybr="620.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="855" outside="0" occluded="0" keyframe="1" xtl="1879.30" ytl="581.20" xbr="1935.40" ybr="626.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="856" outside="0" occluded="0" keyframe="0" xtl="1882.30" ytl="584.94" xbr="1939.82" ybr="633.05">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="857" outside="0" occluded="0" keyframe="1" xtl="1885.30" ytl="588.68" xbr="1944.23" ybr="640.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="858" outside="0" occluded="0" keyframe="1" xtl="1887.34" ytl="595.88" xbr="1946.07" ybr="643.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="859" outside="0" occluded="0" keyframe="1" xtl="1893.10" ytl="601.90" xbr="1950.40" ybr="650.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="860" outside="0" occluded="0" keyframe="1" xtl="1894.67" ytl="609.25" xbr="1951.92" ybr="658.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="861" outside="0" occluded="0" keyframe="1" xtl="1898.71" ytl="612.66" xbr="1955.90" ybr="666.24">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="862" outside="0" occluded="0" keyframe="1" xtl="1902.30" ytl="620.67" xbr="1957.01" ybr="675.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="863" outside="0" occluded="0" keyframe="1" xtl="1902.98" ytl="627.00" xbr="1960.30" ybr="684.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="864" outside="0" occluded="0" keyframe="0" xtl="1905.89" ytl="635.42" xbr="1960.87" ybr="696.65">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="865" outside="0" occluded="0" keyframe="1" xtl="1908.80" ytl="643.85" xbr="1961.44" ybr="708.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="866" outside="0" occluded="0" keyframe="1" xtl="1907.25" ytl="652.28" xbr="1962.00" ybr="719.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="867" outside="0" occluded="0" keyframe="1" xtl="1905.70" ytl="660.70" xbr="1962.57" ybr="728.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="868" outside="0" occluded="0" keyframe="1" xtl="1904.18" ytl="669.60" xbr="1960.70" ybr="741.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="869" outside="0" occluded="0" keyframe="1" xtl="1902.67" ytl="670.70" xbr="1961.20" ybr="745.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="870" outside="0" occluded="0" keyframe="1" xtl="1902.60" ytl="683.58" xbr="1958.84" ybr="759.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="871" outside="0" occluded="0" keyframe="1" xtl="1899.44" ytl="688.03" xbr="1957.58" ybr="762.39">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="872" outside="0" occluded="0" keyframe="1" xtl="1895.70" ytl="696.00" xbr="1958.90" ybr="767.57">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="873" outside="0" occluded="0" keyframe="1" xtl="1894.40" ytl="702.50" xbr="1956.87" ybr="772.76">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="874" outside="0" occluded="0" keyframe="1" xtl="1897.38" ytl="707.80" xbr="1959.90" ybr="777.94">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="875" outside="0" occluded="0" keyframe="0" xtl="1900.35" ytl="714.70" xbr="1965.20" ybr="783.13">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="876" outside="0" occluded="0" keyframe="0" xtl="1903.33" ytl="721.60" xbr="1970.50" ybr="788.31">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="877" outside="0" occluded="0" keyframe="1" xtl="1906.30" ytl="728.50" xbr="1975.80" ybr="793.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="878" outside="0" occluded="0" keyframe="1" xtl="1912.20" ytl="735.20" xbr="1983.60" ybr="798.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="879" outside="0" occluded="0" keyframe="1" xtl="1912.62" ytl="746.38" xbr="1990.42" ybr="805.17">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="880" outside="0" occluded="0" keyframe="0" xtl="1916.52" ytl="754.38" xbr="1996.88" ybr="815.28">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="881" outside="0" occluded="0" keyframe="0" xtl="1920.43" ytl="762.39" xbr="2003.34" ybr="825.38">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="882" outside="0" occluded="0" keyframe="1" xtl="1924.33" ytl="770.40" xbr="2009.80" ybr="835.48">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="883" outside="0" occluded="0" keyframe="0" xtl="1929.12" ytl="782.70" xbr="2014.02" ybr="844.34">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="884" outside="0" occluded="0" keyframe="1" xtl="1933.90" ytl="795.00" xbr="2018.23" ybr="853.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="885" outside="0" occluded="0" keyframe="0" xtl="1937.22" ytl="805.63" xbr="2022.45" ybr="864.13">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="886" outside="0" occluded="0" keyframe="0" xtl="1940.54" ytl="816.27" xbr="2026.67" ybr="875.07">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="887" outside="0" occluded="0" keyframe="1" xtl="1943.86" ytl="826.90" xbr="2030.88" ybr="886.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="888" outside="0" occluded="0" keyframe="1" xtl="1951.45" ytl="839.40" xbr="2042.96" ybr="900.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="889" outside="0" occluded="0" keyframe="1" xtl="1952.40" ytl="850.00" xbr="2047.60" ybr="912.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="890" outside="0" occluded="0" keyframe="1" xtl="1961.22" ytl="863.40" xbr="2052.80" ybr="926.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="891" outside="0" occluded="0" keyframe="0" xtl="1968.99" ytl="876.80" xbr="2061.65" ybr="941.15">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="892" outside="0" occluded="0" keyframe="1" xtl="1976.76" ytl="890.20" xbr="2070.50" ybr="955.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="893" outside="0" occluded="0" keyframe="0" xtl="1986.99" ytl="906.08" xbr="2076.12" ybr="971.55">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="894" outside="0" occluded="0" keyframe="1" xtl="1997.21" ytl="921.95" xbr="2081.73" ybr="987.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="895" outside="0" occluded="0" keyframe="1" xtl="2004.82" ytl="937.75" xbr="2084.73" ybr="1006.24">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="896" outside="0" occluded="0" keyframe="0" xtl="2010.21" ytl="956.12" xbr="2085.51" ybr="1027.47">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="897" outside="0" occluded="0" keyframe="1" xtl="2015.60" ytl="974.50" xbr="2086.29" ybr="1048.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="898" outside="0" occluded="0" keyframe="1" xtl="2008.41" ytl="988.32" xbr="2089.03" ybr="1067.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="899" outside="0" occluded="0" keyframe="1" xtl="2008.60" ytl="1002.14" xbr="2089.30" ybr="1088.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="900" outside="0" occluded="0" keyframe="1" xtl="2006.80" ytl="1021.40" xbr="2090.10" ybr="1107.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="901" outside="0" occluded="0" keyframe="0" xtl="2002.55" ytl="1038.75" xbr="2085.60" ybr="1125.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="902" outside="0" occluded="0" keyframe="1" xtl="1998.30" ytl="1056.10" xbr="2081.10" ybr="1144.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="903" outside="0" occluded="0" keyframe="0" xtl="1992.30" ytl="1074.66" xbr="2076.60" ybr="1162.55">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="904" outside="0" occluded="0" keyframe="1" xtl="1986.30" ytl="1093.22" xbr="2072.11" ybr="1180.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="905" outside="0" occluded="0" keyframe="1" xtl="1980.30" ytl="1111.78" xbr="2067.61" ybr="1199.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="906" outside="0" occluded="0" keyframe="0" xtl="1974.30" ytl="1130.34" xbr="2063.11" ybr="1223.15">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="907" outside="0" occluded="0" keyframe="1" xtl="1968.30" ytl="1148.90" xbr="2058.61" ybr="1246.91">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="908" outside="0" occluded="0" keyframe="1" xtl="1958.84" ytl="1168.89" xbr="2053.61" ybr="1271.63">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="909" outside="0" occluded="0" keyframe="1" xtl="1946.29" ytl="1183.70" xbr="2048.50" ybr="1280.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="910" outside="0" occluded="0" keyframe="1" xtl="1933.73" ytl="1197.50" xbr="2041.30" ybr="1290.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="911" outside="0" occluded="0" keyframe="1" xtl="1915.30" ytl="1202.77" xbr="2032.23" ybr="1301.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="912" outside="0" occluded="0" keyframe="1" xtl="1899.70" ytl="1213.40" xbr="2023.15" ybr="1308.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="913" outside="0" occluded="0" keyframe="1" xtl="1886.30" ytl="1220.40" xbr="2014.07" ybr="1322.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="914" outside="0" occluded="0" keyframe="1" xtl="1875.30" ytl="1234.80" xbr="2005.00" ybr="1332.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="915" outside="0" occluded="0" keyframe="1" xtl="1860.90" ytl="1248.61" xbr="1996.27" ybr="1347.77">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="916" outside="0" occluded="0" keyframe="0" xtl="1852.30" ytl="1262.42" xbr="1987.54" ybr="1363.53">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="917" outside="0" occluded="0" keyframe="1" xtl="1843.70" ytl="1276.24" xbr="1978.81" ybr="1379.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="918" outside="0" occluded="0" keyframe="1" xtl="1835.60" ytl="1292.50" xbr="1966.46" ybr="1397.97">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="919" outside="0" occluded="0" keyframe="1" xtl="1827.50" ytl="1314.84" xbr="1954.12" ybr="1416.64">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="920" outside="0" occluded="0" keyframe="1" xtl="1821.30" ytl="1334.14" xbr="1941.77" ybr="1435.31">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="921" outside="0" occluded="0" keyframe="1" xtl="1815.50" ytl="1371.40" xbr="1943.30" ybr="1471.94">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="922" outside="0" occluded="0" keyframe="1" xtl="1816.11" ytl="1390.60" xbr="1943.65" ybr="1495.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="923" outside="0" occluded="0" keyframe="1" xtl="1810.59" ytl="1419.40" xbr="1936.62" ybr="1530.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="924" outside="0" occluded="0" keyframe="0" xtl="1798.70" ytl="1446.33" xbr="1929.59" ybr="1564.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="925" outside="0" occluded="0" keyframe="0" xtl="1786.80" ytl="1473.25" xbr="1922.56" ybr="1597.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="926" outside="0" occluded="0" keyframe="1" xtl="1774.90" ytl="1500.18" xbr="1915.53" ybr="1631.29">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="927" outside="0" occluded="0" keyframe="1" xtl="1761.53" ytl="1536.07" xbr="1891.18" ybr="1648.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="928" outside="0" occluded="0" keyframe="0" xtl="1746.03" ytl="1567.73" xbr="1887.47" ybr="1688.36">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="929" outside="0" occluded="0" keyframe="0" xtl="1730.53" ytl="1599.38" xbr="1883.76" ybr="1728.21">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="930" outside="0" occluded="0" keyframe="0" xtl="1715.03" ytl="1631.04" xbr="1880.05" ybr="1768.07">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="931" outside="0" occluded="0" keyframe="1" xtl="1699.53" ytl="1662.70" xbr="1876.34" ybr="1807.93">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="932" outside="0" occluded="0" keyframe="0" xtl="1681.89" ytl="1704.23" xbr="1869.76" ybr="1847.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="933" outside="0" occluded="0" keyframe="0" xtl="1664.24" ytl="1745.77" xbr="1863.18" ybr="1887.64">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="934" outside="0" occluded="0" keyframe="1" xtl="1646.60" ytl="1787.30" xbr="1856.60" ybr="1927.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="935" outside="0" occluded="0" keyframe="1" xtl="1642.28" ytl="1829.83" xbr="1852.70" ybr="1970.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="936" outside="0" occluded="0" keyframe="1" xtl="1637.96" ytl="1872.37" xbr="1847.30" ybr="2022.47">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="937" outside="0" occluded="0" keyframe="1" xtl="1633.64" ytl="1914.90" xbr="1844.91" ybr="2074.34">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="938" outside="0" occluded="0" keyframe="1" xtl="1637.00" ytl="1965.40" xbr="1852.80" ybr="2123.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="939" outside="0" occluded="0" keyframe="1" xtl="1646.06" ytl="2016.70" xbr="1863.67" ybr="2156.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="940" outside="0" occluded="0" keyframe="1" xtl="1655.12" ytl="2068.00" xbr="1874.55" ybr="2159.44">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="941" outside="1" occluded="0" keyframe="1" xtl="1648.78" ytl="1935.98" xbr="1868.20" ybr="2123.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+  </track>
+  <track id="2" label="cup">
+    <box frame="1015" outside="0" occluded="0" keyframe="1" xtl="1733.30" ytl="476.90" xbr="1769.33" ybr="545.93">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1016" outside="0" occluded="0" keyframe="0" xtl="1730.41" ytl="488.21" xbr="1767.44" ybr="555.74">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1017" outside="0" occluded="0" keyframe="1" xtl="1727.52" ytl="499.52" xbr="1765.56" ybr="565.55">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1018" outside="0" occluded="0" keyframe="1" xtl="1721.54" ytl="502.08" xbr="1762.10" ybr="572.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1019" outside="0" occluded="0" keyframe="0" xtl="1715.08" ytl="507.59" xbr="1756.26" ybr="575.04">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1020" outside="0" occluded="0" keyframe="0" xtl="1708.62" ytl="513.10" xbr="1750.42" ybr="577.57">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1021" outside="0" occluded="0" keyframe="1" xtl="1702.16" ytl="518.61" xbr="1744.58" ybr="580.11">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1022" outside="0" occluded="0" keyframe="1" xtl="1697.65" ytl="512.36" xbr="1740.70" ybr="570.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1023" outside="0" occluded="0" keyframe="0" xtl="1689.41" ytl="513.93" xbr="1737.53" ybr="565.09">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1024" outside="0" occluded="0" keyframe="1" xtl="1681.16" ytl="515.50" xbr="1734.37" ybr="559.29">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1025" outside="0" occluded="0" keyframe="1" xtl="1678.79" ytl="488.83" xbr="1727.90" ybr="554.62">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1026" outside="0" occluded="0" keyframe="1" xtl="1670.20" ytl="508.70" xbr="1731.60" ybr="563.47">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1027" outside="0" occluded="0" keyframe="1" xtl="1667.73" ytl="509.30" xbr="1729.14" ybr="565.65">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1028" outside="0" occluded="0" keyframe="1" xtl="1667.10" ytl="517.60" xbr="1732.18" ybr="575.17">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1029" outside="0" occluded="0" keyframe="1" xtl="1670.20" ytl="531.70" xbr="1735.23" ybr="592.04">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1030" outside="0" occluded="0" keyframe="0" xtl="1666.90" ytl="543.10" xbr="1731.49" ybr="600.53">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1031" outside="0" occluded="0" keyframe="0" xtl="1663.60" ytl="554.50" xbr="1727.74" ybr="609.02">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1032" outside="0" occluded="0" keyframe="1" xtl="1660.30" ytl="565.90" xbr="1724.00" ybr="617.51">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1033" outside="0" occluded="0" keyframe="1" xtl="1653.33" ytl="578.31" xbr="1716.58" ybr="629.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1034" outside="0" occluded="0" keyframe="0" xtl="1651.86" ytl="588.91" xbr="1714.67" ybr="639.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1035" outside="0" occluded="0" keyframe="1" xtl="1650.40" ytl="599.50" xbr="1712.76" ybr="648.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1036" outside="0" occluded="0" keyframe="1" xtl="1651.18" ytl="607.70" xbr="1713.23" ybr="662.18">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1037" outside="0" occluded="0" keyframe="1" xtl="1651.97" ytl="619.60" xbr="1713.69" ybr="675.46">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1038" outside="0" occluded="0" keyframe="1" xtl="1645.40" ytl="621.90" xbr="1714.15" ybr="688.74">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1039" outside="0" occluded="0" keyframe="0" xtl="1646.09" ytl="624.75" xbr="1713.97" ybr="697.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1040" outside="0" occluded="0" keyframe="0" xtl="1646.77" ytl="627.60" xbr="1713.79" ybr="705.66">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1041" outside="0" occluded="0" keyframe="0" xtl="1647.46" ytl="630.44" xbr="1713.60" ybr="714.11">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1042" outside="0" occluded="0" keyframe="0" xtl="1648.14" ytl="633.29" xbr="1713.42" ybr="722.57">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1043" outside="0" occluded="0" keyframe="0" xtl="1648.83" ytl="636.14" xbr="1713.23" ybr="731.03">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1044" outside="0" occluded="0" keyframe="0" xtl="1649.51" ytl="638.99" xbr="1713.05" ybr="739.48">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1045" outside="0" occluded="0" keyframe="1" xtl="1650.20" ytl="641.84" xbr="1712.86" ybr="747.94">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1046" outside="0" occluded="0" keyframe="1" xtl="1651.28" ytl="647.53" xbr="1707.40" ybr="756.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1047" outside="0" occluded="0" keyframe="0" xtl="1647.07" ytl="664.27" xbr="1704.25" ybr="771.52">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1048" outside="0" occluded="0" keyframe="0" xtl="1642.87" ytl="681.02" xbr="1701.11" ybr="786.64">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1049" outside="0" occluded="0" keyframe="0" xtl="1638.67" ytl="697.76" xbr="1697.96" ybr="801.76">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1050" outside="0" occluded="0" keyframe="0" xtl="1634.47" ytl="714.51" xbr="1694.82" ybr="816.88">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1051" outside="0" occluded="0" keyframe="1" xtl="1630.27" ytl="731.25" xbr="1691.67" ybr="832.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1052" outside="0" occluded="0" keyframe="1" xtl="1626.07" ytl="748.00" xbr="1687.47" ybr="828.04">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1053" outside="0" occluded="0" keyframe="1" xtl="1621.87" ytl="753.60" xbr="1683.27" ybr="839.98">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1054" outside="0" occluded="0" keyframe="1" xtl="1617.58" ytl="766.20" xbr="1674.23" ybr="844.64">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1055" outside="0" occluded="0" keyframe="1" xtl="1613.30" ytl="765.30" xbr="1665.20" ybr="849.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1056" outside="0" occluded="0" keyframe="1" xtl="1608.50" ytl="780.00" xbr="1675.80" ybr="866.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1057" outside="0" occluded="0" keyframe="1" xtl="1596.45" ytl="780.00" xbr="1654.20" ybr="873.39">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1058" outside="0" occluded="0" keyframe="1" xtl="1588.90" ytl="776.10" xbr="1642.20" ybr="870.34">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1059" outside="0" occluded="0" keyframe="1" xtl="1580.54" ytl="784.00" xbr="1650.70" ybr="869.23">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1060" outside="0" occluded="0" keyframe="1" xtl="1576.70" ytl="788.60" xbr="1647.80" ybr="882.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1061" outside="0" occluded="0" keyframe="1" xtl="1562.30" ytl="793.20" xbr="1643.80" ybr="884.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1062" outside="0" occluded="0" keyframe="1" xtl="1554.85" ytl="800.60" xbr="1641.10" ybr="884.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1063" outside="0" occluded="0" keyframe="1" xtl="1551.11" ytl="819.10" xbr="1641.90" ybr="899.50">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1064" outside="0" occluded="0" keyframe="1" xtl="1547.36" ytl="837.60" xbr="1632.30" ybr="918.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1065" outside="0" occluded="0" keyframe="1" xtl="1540.68" ytl="852.70" xbr="1619.90" ybr="949.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1066" outside="0" occluded="0" keyframe="1" xtl="1535.74" ytl="874.62" xbr="1626.40" ybr="964.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1067" outside="0" occluded="0" keyframe="1" xtl="1530.80" ytl="896.54" xbr="1619.30" ybr="979.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1068" outside="0" occluded="0" keyframe="1" xtl="1525.86" ytl="918.46" xbr="1612.80" ybr="999.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1069" outside="0" occluded="0" keyframe="1" xtl="1520.93" ytl="940.38" xbr="1606.30" ybr="1027.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1070" outside="0" occluded="0" keyframe="1" xtl="1511.70" ytl="948.60" xbr="1583.88" ybr="1045.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1071" outside="0" occluded="0" keyframe="1" xtl="1506.74" ytl="974.00" xbr="1583.59" ybr="1071.56">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1072" outside="0" occluded="0" keyframe="1" xtl="1498.73" ytl="980.66" xbr="1583.30" ybr="1086.43">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1073" outside="0" occluded="0" keyframe="1" xtl="1490.72" ytl="1002.67" xbr="1569.10" ybr="1101.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1074" outside="0" occluded="0" keyframe="1" xtl="1491.36" ytl="1027.98" xbr="1564.20" ybr="1123.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1075" outside="0" occluded="0" keyframe="1" xtl="1492.00" ytl="1053.29" xbr="1559.30" ybr="1165.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1076" outside="0" occluded="0" keyframe="1" xtl="1475.00" ytl="1078.80" xbr="1563.65" ybr="1197.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1077" outside="0" occluded="0" keyframe="1" xtl="1479.14" ytl="1104.31" xbr="1568.01" ybr="1224.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1078" outside="0" occluded="0" keyframe="1" xtl="1472.71" ytl="1129.82" xbr="1572.36" ybr="1267.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1079" outside="0" occluded="0" keyframe="1" xtl="1472.66" ytl="1153.10" xbr="1576.57" ybr="1297.70">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1080" outside="0" occluded="0" keyframe="1" xtl="1474.45" ytl="1177.00" xbr="1582.61" ybr="1341.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1081" outside="0" occluded="0" keyframe="1" xtl="1476.23" ytl="1200.90" xbr="1588.66" ybr="1380.60">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1082" outside="0" occluded="0" keyframe="1" xtl="1478.02" ytl="1230.44" xbr="1594.70" ybr="1430.10">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1083" outside="0" occluded="0" keyframe="1" xtl="1486.40" ytl="1280.50" xbr="1610.67" ybr="1475.24">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1084" outside="0" occluded="0" keyframe="0" xtl="1494.77" ytl="1314.60" xbr="1626.63" ybr="1520.37">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1085" outside="0" occluded="0" keyframe="1" xtl="1503.14" ytl="1348.70" xbr="1642.60" ybr="1565.51">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1086" outside="0" occluded="0" keyframe="0" xtl="1511.52" ytl="1383.92" xbr="1659.42" ybr="1606.65">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1087" outside="0" occluded="0" keyframe="0" xtl="1519.89" ytl="1419.14" xbr="1676.24" ybr="1647.79">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1088" outside="0" occluded="0" keyframe="0" xtl="1528.26" ytl="1454.35" xbr="1693.06" ybr="1688.92">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1089" outside="0" occluded="0" keyframe="0" xtl="1536.64" ytl="1489.57" xbr="1709.88" ybr="1730.06">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1090" outside="0" occluded="0" keyframe="1" xtl="1545.01" ytl="1524.79" xbr="1726.70" ybr="1771.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1091" outside="0" occluded="0" keyframe="1" xtl="1553.38" ytl="1560.01" xbr="1750.97" ybr="1825.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1092" outside="0" occluded="0" keyframe="0" xtl="1561.76" ytl="1595.23" xbr="1769.04" ybr="1874.20">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1093" outside="0" occluded="0" keyframe="1" xtl="1570.13" ytl="1630.45" xbr="1787.10" ybr="1923.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1094" outside="0" occluded="0" keyframe="1" xtl="1580.62" ytl="1669.22" xbr="1796.50" ybr="1983.30">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1095" outside="0" occluded="0" keyframe="1" xtl="1591.10" ytl="1708.00" xbr="1813.40" ybr="2027.90">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1096" outside="0" occluded="0" keyframe="0" xtl="1605.16" ytl="1764.90" xbr="1829.09" ybr="2092.85">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1097" outside="0" occluded="0" keyframe="1" xtl="1619.23" ytl="1821.80" xbr="1844.77" ybr="2157.80">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1098" outside="0" occluded="0" keyframe="1" xtl="1633.29" ytl="1878.70" xbr="1860.46" ybr="2160.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1099" outside="0" occluded="0" keyframe="1" xtl="1633.29" ytl="1930.14" xbr="1860.46" ybr="2160.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1100" outside="0" occluded="0" keyframe="1" xtl="1633.29" ytl="1999.30" xbr="1860.46" ybr="2160.00">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1101" outside="1" occluded="0" keyframe="1" xtl="1633.29" ytl="1860.98" xbr="1860.46" ybr="2153.93">
+      <attribute name="contaminated">false</attribute>
+    </box>
+    <box frame="1103" outside="1" occluded="0" keyframe="1" xtl="1570.13" ytl="1630.45" xbr="1797.30" ybr="1923.40">
+      <attribute name="contaminated">false</attribute>
+    </box>
+  </track>
+</annotations>
