@@ -10,7 +10,13 @@
 *.lib
 *.dylib
 mnist/
-data/
+data/aug_dataset/
+data/dataset/
+data/diff_angles/
+data/labels/
+data/mock_or_vids/
+data/operating_room/
+data/test_fresh/
 models/
 caffe/
 grasp/
