@@ -10,7 +10,12 @@
 *.lib
 *.dylib
 mnist/
-data/
+data/aug_images/
+data/images/
+data/labels/
+data/train_labels/
+data/val_labels/
+data/yolo-images/
 detections/
 models/
 caffe/
