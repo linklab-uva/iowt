@@ -1,0 +1,80 @@
+*.o
+*.a
+*.dSYM
+*.csv
+*.out
+*.png
+*.so
+*.exe
+*.dll
+*.lib
+*.dylib
+mnist/
+# data directories edited by Sonali - trying to only keep python files
+data/*.jpg
+data/*.data
+data/*.cfg
+data/*.names
+data/aug_images/
+data/detections/
+data/images/
+data/labels/
+data/train_labels/
+data/val_labels/
+data/yolo-images/
+data/*.tree
+data/*.txt
+data/*.list
+data/*.map
+models/
+caffe/
+grasp/
+images/
+opencv/
+convnet/
+decaf/
+submission/
+# cfg/ - commented out by Sonali
+temp/
+build/darknet/*
+build_*/
+vcpkg_installed/
+!build/darknet/YoloWrapper.cs
+.fuse*
+*.weights
+build/*.cmake
+build/*.ninja
+build/*.txt
+build/*.json
+build/CMakeFiles/
+build/detect_cuda_compute_capabilities.cu
+build/.ninja_deps
+build/.ninja_log
+build/Makefile
+*/vcpkg-manifest-install.log
+
+yolov3.conv.81
+darknet53.conv.74
+
+# OS Generated #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+# IDE generated #
+.vs/
+.vscode/
+
+# Managed by CMake
+# src/version.h - commented out by Sonali (needed to build with make)
+
+# Build artifacts
+lib/
+share/
+include/darknet/
+uselib
+uselib_track
+darknet
+vcpkg/
