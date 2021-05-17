@@ -17,6 +17,15 @@ data/labels/
 data/mock_or_vids/
 data/operating_room/
 data/test_fresh/
+data/mock_or
+data/*.jpg
+data/*.data
+data/*.cfg
+data/*.names
+data/*.tree
+data/*.txt
+data/*.list
+data/*.map
 models/
 caffe/
 grasp/
@@ -25,7 +34,7 @@ opencv/
 convnet/
 decaf/
 submission/
-cfg/
+# cfg/ - commented out by Sonali
 build/darknet/*
 build_*/
 !build/darknet/YoloWrapper.cs
@@ -54,7 +63,7 @@ Thumbs.db
 .vscode/
 
 # Managed by CMake
-src/version.h
+# src/version.h - commented out by Sonali (need to run make in darknet)
 
 # Build artifacts
 lib/
