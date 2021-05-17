@@ -1,5 +1,0 @@
-classes = 3
-train = data/aug_train.txt
-valid = data/val.txt
-names = data/obj.names 
-backup = backup/

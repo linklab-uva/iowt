@@ -1,5 +1,0 @@
-classes= 80
-train  = data/yolo-train.txt
-valid  = data/yolo-val.txt
-names = data/coco.names
-backup = backup/
